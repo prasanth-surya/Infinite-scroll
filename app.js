@@ -1,6 +1,6 @@
 const imageContainer = document.querySelector("#image-container");
 const loader = document.querySelector("#loader");
-const header = document.querySelector("heading");
+const headingEl = document.querySelector("heading");
 
 const photosArray = [];
 
