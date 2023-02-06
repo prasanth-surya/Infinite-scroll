@@ -4,7 +4,7 @@ const headingEl = document.querySelector("heading");
 
 const photosArray = [];
 
-const count = 30;
+const count = 15;
 const apiurl = `https://jsonplaceholder.typicode.com/photos/?_limit=${count}`;
 
 // loader
