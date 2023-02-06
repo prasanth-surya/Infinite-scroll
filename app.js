@@ -1,6 +1,6 @@
 const imageContainer = document.querySelector("#image-container");
 const loader = document.querySelector("#loader");
-const headingEl = document.querySelector("heading");
+const headingEl = document.querySelector("#heading");
 
 const photosArray = [];
 
@@ -38,7 +38,7 @@ window.addEventListener("scroll", () => {
     document.body.offsetHeight - 1000
   ) {
     getPics();
-    headingEl.style.display = "none"
+    headingEl.style.display = "none";
   }
 });
 // scroll
